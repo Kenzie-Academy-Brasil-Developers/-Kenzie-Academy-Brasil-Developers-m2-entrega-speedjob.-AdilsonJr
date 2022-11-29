@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+    background-color: rgba(233, 236, 239, 1);
+  }
+
+  :root{
+    --header-color: rgba(33, 37, 41, 1);
+    --brand1-color: rgba(255, 255, 255, 1);
+    --brand2-color: rgba(72, 79, 251, 1);
+    --slogan-color: rgba(255, 255, 255, 0.8);
+    --text-color: rgba(73, 80, 87, 1);
+    --buttonCardText-color: rgba(77, 82, 211, 1);
+
+    --font-family-title: 'Poppins', sans-serif;
+    --font-family-text: 'Inter', sans-serif;
+  }

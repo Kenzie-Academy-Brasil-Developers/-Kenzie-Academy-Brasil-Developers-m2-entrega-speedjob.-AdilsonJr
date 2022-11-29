@@ -1,0 +1,23 @@
+.headersButtons{
+    background-color: var(--header-color);
+    color: var(--slogan-color);
+    border: var(--slogan-color) 1px solid;
+    font-family: var(--font-family-text);
+    padding: 10px 100px;
+    border-radius: 32px;
+}
+
+.cardsButtons{
+    font-size: 10px;
+    border: none;
+    padding: 2px 8px;
+    color: var(--buttonCardText-color);
+    border-radius: 2px;
+}
+
+@media (min-width: 768px){
+    .headersButtons{
+        font-size: 10px;
+        padding: 10px 29px;
+    }
+}

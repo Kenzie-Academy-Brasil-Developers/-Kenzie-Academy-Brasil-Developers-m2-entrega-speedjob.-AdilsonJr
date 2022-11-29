@@ -1,0 +1,138 @@
+header{
+    height: 250px;
+    background-color: var(--header-color);
+}
+
+.headerWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.headerWrapper h1{
+    font-family: var(--font-family-title);
+    font-size: 36px;
+    color: var(--brand1-color);
+}
+
+.headerWrapper span{
+    font-family: var(--font-family-title);
+    font-size: 36px;
+    color: var(--brand2-color);
+}
+
+.headerWrapper h2{
+    font-family: var(--font-family-text);
+    font-size: 12px;
+    color: var(--slogan-color);
+}
+
+.buttonsHeader{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.mainWrapper{
+    font-family: var(--font-family-text);
+    width: 100vw;
+    padding: 10px;
+}
+
+.mainWrapper h2{
+    font-size: 16px;
+    padding: 40px 0;
+}
+
+.frontendList{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    overflow: scroll;
+    list-style: none;
+}
+
+.backendList{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    overflow: scroll;
+    list-style: none;
+}
+
+
+
+.cardWrapper{
+    background-color: var(--brand1-color);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 32px 24px;
+    max-width: 337px;
+    max-height: 230px;
+}
+
+.headerCard{
+    display: flex;
+    gap: 10px;
+    align-items: center
+}
+
+.headerCard span{
+    background-color: rgba(18, 16, 16, 1);
+    border-radius: 100%;
+    padding: 12px 16px;
+    color: var(--brand1-color);
+    font-size: 20px;
+}
+
+.headerCard h3{
+    font-size: 16px;
+    color: var(--header-color);
+}
+
+.footerCard{
+    display: flex;
+    gap: 8px;
+}
+.cardWrapper p{
+    font-size: 12px;
+    color: var(--text-color);
+}
+
+@media (min-width: 768px){
+    
+    .buttonsHeader{
+        flex-direction: row;
+    }
+    
+    .headerWrapper{
+        width: 284px;
+        margin: 0 auto;
+        gap: 41px
+    }
+    
+    .frontendList{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 36px;
+        overflow: hidden;
+    }
+    
+    .backendList{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 36px;
+        overflow: hidden;
+    }
+    
+    li{
+        max-width: 347px;
+        max-height: 240px;
+    }
+}
